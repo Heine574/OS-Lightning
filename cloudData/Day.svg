@@ -1,0 +1,15 @@
+<svg version="1.1" width="482" height="362" viewBox="-1 -1 482 362" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="grad_1" y2="1">
+      <stop offset="0" stop-color="#CCD8FF" stop-opacity="1"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="grad_2" y2="1">
+      <stop offset="0" stop-color="#FFFFCC" stop-opacity="1"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+  <path id="ID0.7961085122078657" fill="url(#grad_1)" stroke="none" d="M 0 0 L 480 0 L 480 360 L 0 360 L 0 0 Z " transform="matrix(1, 0, 0, 1, 1, -1)"/>
+  <path id="ID0.9532273886725307" fill="url(#grad_2)" stroke="none" d="M 109.500 38 C 121.501 38 132.376 42.706 140.251 50.309 C 148.126 57.913 153 68.413 153 80 C 153 91.587 148.126 102.087 140.251 109.691 C 132.376 117.294 121.501 122 109.500 122 C 97.499 122 86.624 117.294 78.749 109.691 C 70.874 102.087 66 91.587 66 80 C 66 68.413 70.874 57.913 78.749 50.309 C 86.624 42.706 97.499 38 109.500 38 Z " transform="matrix(0.3941730260848999, -0.551842212677002, 0.551842212677002, 0.3941730260848999, -42.8, 70.35)"/>
+</svg>

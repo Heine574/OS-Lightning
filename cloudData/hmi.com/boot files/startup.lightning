@@ -1,0 +1,23 @@
+del_sprites;$
+printcolor 0 0 0;$
+println "Initializing djPro's Text Engine";$
+println "Initializing mocqoro's Sound Engine";$
+println "Initializing MagicWars010098's 3D Engine";$
+println "Initializing OS-Lightning 0.3";$
+sleep 1;$
+clear;$
+image box -240 -180 240 180 0 | end 1;$
+image polygon (((255 * 65536) + (255 * 256)) + 0) ((255 * 65536) + (255 * 256)) 0 -20 -5 -10 5 0 -5 10 8 20 -8 20 -15 10 -10 0 -15 -10 0 -20 | end 2;$
+image text "Lightning Graphics" -100 100 0 0 2 (((255 * 65536) + (255 * 256)) + 0) | end 3;$
+Sprite 1 0 0 1 0 "none" end 1;$
+Sprite 1 0 0 2 0 "@home\bounce.script" end 2;$
+Sprite 1 0 -60 3 0 "none" end 3;$ sleep 1;$
+rot_var = (0);$
+y_sin = (0);$
+play_sound "startup.sound";$
+run_lightning;$
+wait 35;$
+stop_lightning;$
+sleep 1;$
+desktop = ("box,,-240,,-180,,240,,180,,(rgb 40 40 40)");$
+import home\taskbar.exe;
